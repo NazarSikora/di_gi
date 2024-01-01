@@ -70,6 +70,49 @@ a {
     background-color: #4D99EF;
 }
 
+.services {
+    padding: 60px 0px;
+    background-color: #2B4074;
+    color: #fff;
+}
+
+.services__data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.services__title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.services__text {
+    font-family: 'Dosis', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.services__button {
+    margin-left: 15px;
+}
+
+.button-white {
+    border-radius: 3px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    background-color: #fff;
+    color: #2B4074;
+    padding: 15px;
+    transition: 0.5s all;
+}
+
+.button-white:hover {
+    background-color: #2B4074;
+    color: #fff;
+}
+
 @media(max-width: 1024px) {
     .container {
         max-width: 936px;
@@ -91,6 +134,32 @@ a {
 
     .button-blue {
         padding: 15px 45px;
+    }
+
+    .services__data {
+        display: block;
+    }
+
+    .services__button {
+        text-align: center;
+    }
+
+    .services__content {
+        text-align: center;
+    }
+    
+    .services__title {
+        font-size: 24px;
+    }
+    
+    .services__text {
+        padding: 10px 0px;
+        font-size: 16px;
+    }
+
+    .services__button {
+        margin-left: 0px;
+        margin-top: 25px;
     }
 }
 
