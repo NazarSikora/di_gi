@@ -219,6 +219,31 @@ a {
     margin-top: 40px;
 }
 
+.comment {
+    padding: 90px 0px;
+}
+
+.comment-content {
+    text-align: center;
+}
+
+.comment-content__text {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    padding: 20px 0px;
+}
+
+.comment-content__author {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.blue-text {
+    color: #2B4074;
+}
+
 @media(max-width: 1024px) {
     .container {
         max-width: 936px;
@@ -331,6 +356,14 @@ a {
 
     .our-project__card_title {
         padding: 15px;
+    }
+
+    .comment-content__text {
+        font-size: 32px;
+    }
+    
+    .comment-content__author {
+        font-size: 20px;
     }
 }
 
@@ -476,5 +509,13 @@ a {
     
     .team-image__image {
         width: 100%;
+    }
+
+    .comment-content__text {
+        font-size: 24px;
+    }
+    
+    .comment-content__author {
+        font-size: 20px;
     }
 }
