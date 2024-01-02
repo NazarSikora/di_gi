@@ -244,6 +244,47 @@ a {
     color: #2B4074;
 }
 
+.footer {
+    background-color: #2B4074;
+}
+
+.footer-block__logo {
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.footer__title {
+    padding: 50px 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #fff;
+}
+
+.footer__icons {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.footer-information {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-information__title {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    padding-bottom: 20px;
+    font-family: 700;
+    color: #F9F6E5;
+}
+
+.footer-information__text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: #fff;
+}
+
 @media(max-width: 1024px) {
     .container {
         max-width: 936px;
@@ -470,6 +511,55 @@ a {
         font-size: 16px;
         color: #9B9B9B;
     }
+    
+    .footer__title {
+        padding: 30px 0px;
+    }
+    
+    .footer__icons {
+        display: block;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    .footer__icons img {
+        padding-right: 15px;
+    }
+    
+    .footer-information {
+        display: block;
+        text-align: center;
+    }
+    
+    .footer-information__title {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 16px;
+        padding-bottom: 20px;
+        font-family: 700;
+        color: #F9F6E5;
+    }
+    
+    .footer-information__text {
+        font-family: 'Roboto', sans-serif;
+        font-size: 12px;
+        color: #fff;
+    }
+
+    .footer-information__contacts {
+        padding-bottom: 20px;
+    }
+
+    .footer-information__address {
+        padding-bottom: 20px;
+    }
+
+    .footer-information__help {
+        padding-bottom: 20px;
+    }
+
+    .footer-information__menu {
+        padding-bottom: 20px;
+    }
 }
 
 @media(max-width: 320px) {
@@ -516,6 +606,10 @@ a {
     }
     
     .comment-content__author {
+        font-size: 20px;
+    }
+
+    .footer__title {
         font-size: 20px;
     }
 }
