@@ -190,6 +190,35 @@ a {
     text-align: center;
 }
 
+.team {
+    padding: 50px 0px;
+}
+
+.team__data {
+    display: flex;
+}
+
+.team-content__title {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 30px;
+    font-size: 48px;
+    color: #4A4A4A;
+}
+
+.team-content__text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #9B9B9B;
+}
+
+.team-content {
+    padding-left: 100px;
+}
+
+.team-content__button {
+    margin-top: 40px;
+}
+
 @media(max-width: 1024px) {
     .container {
         max-width: 936px;
@@ -342,6 +371,47 @@ a {
         color: #4A4A4A;
         text-align: center;
     }
+    
+    .team__data {
+        display: block;
+    }
+
+    .team-content {
+        text-align: center;
+    }
+
+    .team-image {
+        text-align: center;
+    }
+
+    .team-image__image {
+        width: 50%;
+    }
+    
+    .team-content__title {
+        font-family: 'Roboto Condensed', sans-serif;
+        margin-bottom: 30px;
+        font-size: 36px;
+        color: #4A4A4A;
+    }
+    
+    .team-content__text {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        color: #9B9B9B;
+    }
+    
+    .team-content {
+        padding-left: 100px;
+    }
+    
+    .team-content__button {
+        margin-top: 40px;
+    }
+
+    .team-content {
+        padding-left: 0px;
+    }
 }
 
 @media(max-width: 640px) {
@@ -360,6 +430,12 @@ a {
 
     .our-project__title {
         font-size: 24px;
+    }
+
+    .team-content__text {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        color: #9B9B9B;
     }
 }
 
@@ -396,5 +472,9 @@ a {
     
     .idea-cards__card_image {
         text-align: center;
+    }
+    
+    .team-image__image {
+        width: 100%;
     }
 }
